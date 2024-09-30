@@ -13,6 +13,7 @@ System.out.printf("%-15s%03d\n",s1,x);
 	•	d: Specifies that the argument is an integer.
 	•	\n: A newline character to move the output cursor to the next line after printing.
 
+	System.out.printf("%15s%03d\n", s1, x); this is for right align
 In summary, this line:
 
 	•	Prints the string s1, left-aligned within 15 character spaces.

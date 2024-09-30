@@ -1,0 +1,20 @@
+System.out.printf("%-15s%03d\n",s1,x);
+
+
+	%-15s: This specifies how to format the first argument (s1).
+	•	%: Indicates the start of a format specifier.
+	•	-: Left-justifies the string.
+	•	15: Reserves 15 character spaces for the string.
+	•	s: Specifies that the argument is a string.
+	•	%03d: This specifies how to format the second argument (x).
+	•	%: Indicates the start of a format specifier.
+	•	0: Pads the number with leading zeros.
+	•	3: Ensures the number is at least 3 digits wide.
+	•	d: Specifies that the argument is an integer.
+	•	\n: A newline character to move the output cursor to the next line after printing.
+
+In summary, this line:
+
+	•	Prints the string s1, left-aligned within 15 character spaces.
+	•	Prints the integer x as a 3-digit number with leading zeros (if necessary).
+	•	Then moves to the next line.
